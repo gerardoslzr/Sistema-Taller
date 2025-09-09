@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #262626 !important;
+}
+#login_box {
+    background-color: #383434;
+    width: 530px;
+    height: 629px;
+    border-radius: 16px;
+}
+#register_box {
+    background-color: #383434 !important; 
+    padding: 10% !important;
+    /*width: 530px !important; */
+   /* height: 629px !important; */
+    border-radius: 16px !important;
+}
+.login_caja_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_form {
+    border-bottom: #FF6600 2px solid;
+}
+.login_titulo::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 3px solid #CC3300;
+}
+.input_login::placeholder{
+    color: white;
+}
+.input_login:focus{
+    outline: none;
+    border: none;   
+}
+.input_login:focus::placeholder {
+    color: transparent;
+}
+.botones_sistema{
+    background-color: #CC3300; border-style: none; width: 152px; height: 48px; border-radius: 16px; font-size: 24px; color: white;
+}
+.botones_sistema:hover{
+    background-color: #FF6600;
+}
+.verificacionAdmin_caja_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.verificacionAdmin_box{
+    padding: 50px;
+    width: 530px;
+    background-color: #383434;
+    border-radius: 16px;
+}
+.slide {
+    background-color: #383434;
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.img_apartado_slide {
+    width: 28px;
+    height: 28px;
+}
+.titulo_apartado_slide {
+    font-size: 18px;
+}
+.taller_slide .titulo_taller_slide{
+    color: #EBE5E0;
+    font-size: 24px;
+    margin: 0 0 0 16px !important; 
+}
+.taller_slide {
+    border-bottom: #D9D9D9 solid 2px;
+}
+.usuario_slide {
+    border-bottom: #D9D9D9 solid 2px;
+}
+.usuario_nombre {
+    font-size: 18px;
+    color: #EBE5E0;
+}
+.usuario_rol {
+    font-size: 19px;
+    color: #EBE5E0;
+}
+.cerrar_sesion_slide{
+    margin-top: 100%;
+}
+.accordion-button {
+    background-color: #383434 !important;
+    color: #EBE5E0 !important;
+    font-size: 18px !important;   
+}
+.accordion-item{
+    border: none !important;
+}
+#accordionExample {
+    --bs-accordion-bg: none;
+    --bs-accordion-border-color: none;
+    --bs-accordion-btn-color: #EBE5E0;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23EBE5E0' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23EBE5E0' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+    --bs-accordion-btn-focus-box-shadow: none;
+}   
